@@ -72,7 +72,7 @@ footer {
     padding: 1rem;
   }
 
-  nav, aside {
+  nav, main, aside {
     margin: 0;
   }
 }
