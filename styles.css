@@ -15,7 +15,7 @@ body {
   grid-template-rows: auto 1fr auto;
 
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 header {
@@ -42,11 +42,23 @@ aside {
 
 footer {
   grid-area: footer;
-  text-align: right;
-  margin: 2rem 0;
+  text-align: center;
+  padding: 2rem 0;
+  background: #21F0F2;
+  color: white;
+  font-weight: bold;
 }
 
 /* --- [end] holy grail layout --- */
+
+/* --- [start] h* --- */
+h2 {
+  color: #45C211;
+}
+h3 {
+  color: #45C211;
+}
+/* --- [end] h* --- */
 
 /* --- [start] menu --- */
 .menu {
