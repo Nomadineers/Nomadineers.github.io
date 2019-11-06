@@ -62,9 +62,9 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows:
       auto /* Header */
-      minmax(6rem, auto) /* Nav */
+      minmax(9rem, auto) /* Nav */
       1fr /* Content */
-      minmax(6rem, auto) /* Sidebar */
+      minmax(9rem, auto) /* Sidebar */
       auto; /* Footer */
   }
 
@@ -128,20 +128,11 @@ h3 {
 }
 /* --- [end] books --- */
 
-/* --- [start] google form iframe --- */
-.iframe-wrap {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-top: 120%;
-  margin-left: auto;
-  margin-right: auto;
+/* --- [start] contact form --- */
+.contact-form {
+  max-width: 768px;
+  height: 900px;
+  margin: auto;
+  padding: 0;
 }
-.iframe-wrap iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
-/* --- [end] google form iframe --- */
+/* --- [end] contact form --- */
