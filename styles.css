@@ -62,9 +62,9 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows:
       auto /* Header */
-      minmax(6rem, auto) /* Nav */
+      minmax(9rem, auto) /* Nav */
       1fr /* Content */
-      minmax(6rem, auto) /* Sidebar */
+      minmax(9rem, auto) /* Sidebar */
       auto; /* Footer */
   }
 
@@ -127,3 +127,12 @@ h3 {
   margin-bottom: .5rem;
 }
 /* --- [end] books --- */
+
+/* --- [start] contact form --- */
+.contact-form {
+  max-width: 768px;
+  height: 900px;
+  margin: auto;
+  padding: 0;
+}
+/* --- [end] contact form --- */
