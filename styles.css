@@ -101,9 +101,7 @@ h3 {
   display: block;
   padding: 1rem;
   text-decoration: none;
-  border-bottom: 1px solid #45C211;
-  margin-left: 1px;
-  border-left: 3px double #45C211;
+  border-bottom: 2px solid #45C211;
 }
 
 .vertical-menu a:hover {
