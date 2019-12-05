@@ -117,6 +117,16 @@ h3 {
 }
 /* --- [end] menu --- */
 
+/* --- [start] information --- */
+.information-box {
+  background-color: #F0FAEB;
+  border: 2px solid #45C211;
+  border-radius: 1rem;
+  padding-left: 1rem;
+}
+
+/* --- [end] information --- */
+
 /* --- [start] books --- */
 .books-list {
   display: grid;
