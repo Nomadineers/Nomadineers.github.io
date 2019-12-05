@@ -87,6 +87,12 @@ h3 {
 }
 /* --- [end] h* --- */
 
+/* --- [start] header title --- */
+.subtitle {
+  font-size: medium;
+}
+/* --- [end] header title --- */
+
 /* --- [start] menu --- */
 .menu {
   list-style-type: none;
