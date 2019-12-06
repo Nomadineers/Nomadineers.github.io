@@ -1,3 +1,9 @@
+/*
+ベースカラー     白: #ffffff
+アソートカラー   緑: #45C211
+アクセントカラー 黄: #ff9a00
+ */
+
 @import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap');
 
 /* --- [start] holy grail layout --- */
@@ -64,7 +70,7 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows:
       auto /* Header */
-      minmax(calc(3rem * 5 + 1rem), auto) /* Nav */
+      minmax(calc(3rem * 6 + 1rem), auto) /* Nav */
       1fr /* Content */
       auto /* Sidebar */
       auto; /* Footer */
@@ -79,6 +85,19 @@ footer {
   }
 }
 /* --- [end] holy grail layout --- */
+
+/* --- [start] utility --- */
+.u-button--standard {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: #ff9a00;
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+}
+
+/* --- [end] utility */
 
 /* --- [start] h* --- */
 h2 {
@@ -148,17 +167,19 @@ h3 {
 
 .books-list__description {
   text-align: right;
+  padding: .5rem;
 }
 
 .books-list__price {
   font-weight: bold;
+  margin-bottom: .5rem;
 }
 /* --- [end] books --- */
 
 /* --- [start] podcast --- */
-.podcast-link {
+.podcast {
   display: inline-block;
-  text-align: center;
+  text-align: right;
 }
 
 /* --- [end] podcast --- */
