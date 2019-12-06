@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap');
+
 /* --- [start] holy grail layout --- */
 body {
   padding: 0;
   margin: 0;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: 'Kosugi Maru', sans-serif;
 }
 .container {
   display: grid;
