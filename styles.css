@@ -145,7 +145,23 @@ h3 {
   text-align: center;
   margin-bottom: .5rem;
 }
+
+.books-list__description {
+  text-align: right;
+}
+
+.books-list__price {
+  font-weight: bold;
+}
 /* --- [end] books --- */
+
+/* --- [start] podcast --- */
+.podcast-link {
+  display: inline-block;
+  text-align: center;
+}
+
+/* --- [end] podcast --- */
 
 /* --- [start] contact form --- */
 .contact-form {
