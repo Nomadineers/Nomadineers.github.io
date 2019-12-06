@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap');
+
 /* --- [start] holy grail layout --- */
 body {
   padding: 0;
   margin: 0;
-  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-family: 'Kosugi Maru', sans-serif;
 }
 .container {
   display: grid;
@@ -62,9 +64,9 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows:
       auto /* Header */
-      minmax(9rem, auto) /* Nav */
+      minmax(calc(3rem * 5 + 1rem), auto) /* Nav */
       1fr /* Content */
-      minmax(9rem, auto) /* Sidebar */
+      auto /* Sidebar */
       auto; /* Footer */
   }
 
@@ -117,6 +119,16 @@ h3 {
 }
 /* --- [end] menu --- */
 
+/* --- [start] information --- */
+.information-box {
+  background-color: #F0FAEB;
+  border: 2px solid #45C211;
+  border-radius: 1rem;
+  padding-left: 1rem;
+}
+
+/* --- [end] information --- */
+
 /* --- [start] books --- */
 .books-list {
   display: grid;
@@ -133,7 +145,23 @@ h3 {
   text-align: center;
   margin-bottom: .5rem;
 }
+
+.books-list__description {
+  text-align: right;
+}
+
+.books-list__price {
+  font-weight: bold;
+}
 /* --- [end] books --- */
+
+/* --- [start] podcast --- */
+.podcast-link {
+  display: inline-block;
+  text-align: center;
+}
+
+/* --- [end] podcast --- */
 
 /* --- [start] contact form --- */
 .contact-form {
