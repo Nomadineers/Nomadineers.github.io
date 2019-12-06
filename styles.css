@@ -80,6 +80,19 @@ footer {
 }
 /* --- [end] holy grail layout --- */
 
+/* --- [start] utility --- */
+.u-button--standard {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: #45C211;
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+}
+
+/* --- [end] utility */
+
 /* --- [start] h* --- */
 h2 {
   color: #45C211;
@@ -148,17 +161,19 @@ h3 {
 
 .books-list__description {
   text-align: right;
+  padding: .5rem;
 }
 
 .books-list__price {
   font-weight: bold;
+  margin-bottom: .5rem;
 }
 /* --- [end] books --- */
 
 /* --- [start] podcast --- */
-.podcast-link {
+.podcast {
   display: inline-block;
-  text-align: center;
+  text-align: right;
 }
 
 /* --- [end] podcast --- */
