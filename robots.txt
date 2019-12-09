@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /README.md
+Disallow: /CNAME
+Disallow: /img/
+Allow: /
